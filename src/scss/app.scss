@@ -1,0 +1,12 @@
+// Override Bootstrap
+@import '../../node_modules/bootstrap/scss/_functions.scss';
+@import './_bootstrap-variables.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './_bootstrap-extensions.scss';
+
+// Components
+@import './components/_navbar.scss';
+
+// Scenes
+@import './scenes/_layout.scss';
+@import './scenes/_home.scss';

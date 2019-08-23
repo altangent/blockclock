@@ -14,10 +14,10 @@ module.exports = {
 async function getPrices() {
   let query = `
     query price {
-      BtcUsd:markets(marketSymbol:"*:BTC/USD" aggregation:VWA) {
+      BtcUsd:markets(marketSymbol:"Bitstamp:BTC/USD") {
         ...market
       }
-      LtcUsd:markets(marketSymbol:"*:LTC/USD" aggregation:VWA){
+      LtcUsd:markets(marketSymbol:"Bitstamp:LTC/USD"){
         ...market
       }
     }

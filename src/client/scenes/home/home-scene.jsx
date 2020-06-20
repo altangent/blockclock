@@ -32,7 +32,7 @@ export class HomeScene extends React.Component {
         <div className="video-section">
           <div className="video-container">
             <iframe
-              src="https://player.twitch.tv/?channel=altangent&parent=blockclock.live"
+              src="https://player.twitch.tv/?channel=altangent&parent=blockclock.live&parent=www.blockclock.live"
               frameBorder="0"
               allowFullScreen="false"
               scrolling="no"
